@@ -31,10 +31,10 @@ ul.menu > li {
 }
 ul.menu > li > a {
   display: block;
-  padding: 10px;
   color: rgb(255, 255, 255);
-  background-color:rgb(28, 0, 184);
   text-decoration: none;
+  background-color:rgb(28, 0, 184);
+  padding: 12px;
 }
 ul.menu > li > a:hover {
   background-color: rgb(38, 25, 112);
@@ -64,4 +64,20 @@ ul.submenu > li > a:hover {
 }
 ul.menu > li:hover > ul.submenu {
   display: block;
+}
+h1 {
+  text-align: center;
+}
+
+footer {
+    padding: 5px;
+    position:fixed;
+    bottom:0;
+    left:37%;
+    right:37%;
+}
+
+main {
+  word-wrap: normal;
+  line-height: 30px;
 }
