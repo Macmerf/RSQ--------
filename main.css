@@ -65,9 +65,6 @@ ul.submenu > li > a:hover {
 ul.menu > li:hover > ul.submenu {
   display: block;
 }
-h1 {
-  text-align: center;
-}
 
 footer {
     padding: 5px;
@@ -80,4 +77,16 @@ footer {
 main {
   word-wrap: normal;
   line-height: 30px;
+  margin-left: 10px;
+}
+
+.main_title {
+  margin-top:10px;
+  text-align: center;
+}
+
+.player_info {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
 }
